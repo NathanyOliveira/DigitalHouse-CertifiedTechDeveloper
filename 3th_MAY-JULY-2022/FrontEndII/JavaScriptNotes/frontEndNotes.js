@@ -2,12 +2,18 @@
 Depois, temos que pegar este resultado e somar o terceiro número, e assim por diante, até termos terminado de percorrer todo o array.
 */
 
-
-
-const array = [1, 2, 4, 8]; 
+// This way the numbers are all added together
+/*const array = [1, 2, 4, 8]; 
 let sum = 0; 
 for (let i = 0; i < array. length; i++) 
 { sum += array[i]; } 
-console. log(sum);
+console. log(sum);*/
 
 
+const array = [1, 2, 4, 8];
+let sum = 0;
+for(let i = 0; i < array.length; i++)
+
+{sum += array[i]
+console.log(sum);
+}
